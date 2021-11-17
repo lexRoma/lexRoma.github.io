@@ -56,30 +56,7 @@ $(document).ready(function() {
 
 
 
-/*
-function burgerMenu(selector) {
-  let menu = $(selector);
-  let button = menu.find('.header__burger');
-  let links = menu.find('.menu__link');
-  
 
-  button.on('click', (e) => {
-    e.preventDefault();
-    toggleMenu();
-  });
-	
-  links.on('click', () => toggleMenu());
-  
-	
-  function toggleMenu() {
-    menu.toggleClass('active');
-	button.toggleClass('active');
-	$('body').toggleClass('lock');
-
-	
-}
-
-burgerMenu('.header__menu');*/
 
 function burgerMenu(selector) {
 	let menu = $(selector);
@@ -98,12 +75,7 @@ function burgerMenu(selector) {
 
 	function toggleMenu(){
 		menu.toggleClass('active');
-		/*
-		if (menu.hasClass('burger-menu_active')) {
-			$('body').css('overflow', 'hidden');
-		} else {
-			$('body').css('overflow', 'visible');
-		}*/
+		
 	}
 }
 
